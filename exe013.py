@@ -1,0 +1,8 @@
+print('========= quero ser  rico man ===================')
+print('='*12)
+produto = float(input(' digite o valor do produto que deseja comprar :'))
+desc = produto - (produto*15/100)
+acres = produto + (produto*15/100)
+print(' o valor do produto e R${:.2f} \n se voce paga a vista tera 15% desconto que fica no total de {:.2f}'.format(produto, desc))
+print('='*12)
+print('mas se for pagar a prazo tera 15% de aumento ! \n que ficara por R${}'.format(acres))

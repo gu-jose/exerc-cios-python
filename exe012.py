@@ -1,0 +1,7 @@
+print(' desconto da passagem para fora do brasil !')
+print('alguem me tira da qui namoral !')
+print('='*12)
+preço = float(input('qual o valor do produto que deseja desconto ? '))
+novo = preço - (preço*50/100)
+print('='*12)
+print(' o valor do produto e R${} e com \n 50% de desconto ele fica por R${} '.format(preço, novo))
